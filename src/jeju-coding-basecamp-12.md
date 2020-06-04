@@ -1,26 +1,22 @@
 **문제 풀이**
 
-![이미지](../assets/images/result_34.PNG)
+![이미지](../assets/images/result_35.PNG)
 
 **Solution**
 
 ```javascript
-// const tall = "176 175 174 173 172 169".split(" ")
-// let res = "YES";
-// for(let i = 0; i < tall.length; i++) {
-//   if(tall[i] < tall[i+1]) {
-//     res = "NO";
-//   }
-// }
-// console.log(res);
+function one(n) {
+  function two(x) {
+    return x ** n; // Math.pow(x, n);
+  }
+  return two;
+}
 
-const tall = "155 156 165 166 169 176";
-let res = "";
+const a = one(2);
+const b = one(3);
+const c = one(4);
 
-res = tall
-  .split(" ")
-  .sort((a, b) => a - b)
-  .join(" ");
-
-console.log(tall === res ? "YES" : "NO");
+console.log(a(10));
+console.log(b(10));
+console.log(c(10));
 ```
