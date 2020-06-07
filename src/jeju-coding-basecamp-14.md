@@ -17,5 +17,5 @@ winner = Object.keys(res).reduce((a, b) => {
   return res[a] > res[b] ? a : b;
 });
 
-console.log(`${winner}(이)가 총 4표로 반장이 되었습니다.`);
+console.log(`${winner}(이)가 총 ${res[winner]}표로 반장이 되었습니다.`);
 ```
