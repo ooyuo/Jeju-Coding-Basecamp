@@ -37,7 +37,7 @@ let res = [];
 
 6. return
 
-##5.
+**##5.**
 
 ```javascript
 for (let i in entry) {
@@ -47,6 +47,8 @@ for (let i in entry) {
   }
 }
 ```
+
+**Solution**
 
 ```javascript
 const nationWidth = {
