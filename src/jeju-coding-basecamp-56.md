@@ -25,19 +25,21 @@ let res = [];
 
 3. for문을 돌리기위해 아래 함수를 사용한다.
 
+```javascript
    Object.entries()
-
    Object.values()
+```
 
 4. gap에 최대값을 저장한다.
 
+```javascript
    Math.max.apply(null, )
-
+```
 5. for문으로 gap과 객체의 값을 비교해서 제일 차이나지 않는 값을 빈 배열에 저장한다.
 
 6. return
 
-**##5.**
+##5.
 
 ```javascript
 for (let i in entry) {
